@@ -1,67 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YAAA WHO!</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="container">
-        <h2>YAAA WHO!</h2>
-        <h3>Your Personal Search Engine</h3>
+      <h2>YAAA WHO!</h2>
+      <h3>Your Personal Search Engine</h3>
+      <hr />
 
-        <!-- Scrape Button -->
-        <button class="scrape-btn">Scrape this page   ▶</button>
-
-        <hr>
-
-        <!-- Dropdown for category selection -->
-        <div class="dropdown-section">
-            <select class="dropdown">
-                <option>Coding (private)</option>
-                <option>Coding (public)</option>
-            </select>
-            <button class="add-btn">&#43;</button>
-        </div>
-
-        <!-- Dropdown for agent selection -->
-        <div class="dropdown-section">
-            <select class="dropdown">
-                <option>👤 WHO!</option>
-                <option>Agent A</option>
-                <option>Agent B</option>
-            </select>
-            <button class="play-btn">▶</button>
-            <button class="add-btn">&#43;</button>
-        </div>
-
-        <!-- Reference Data Table -->
-        <table class="data-table">
-            <tr>
-                <td>1</td>
-                <td><a href="http://wikipedia.com/" target="_blank">http://wikipedia.com/</a></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Value 2</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Value 3</td>
-            </tr>
-        </table>
-
-        <!-- Wallet Display -->
-        <div class="wallet">
-            Wallet | Balance <span>200</span>
-        </div>
-
-        <p class="footer">Made with ❤️ by YAAA-WHO team</p>
+      <!-- Scrape Button -->
+      <button class="scrape-btn">Scrape this page ▶</button>
     </div>
-</body>
-</html>
 
+      <!-- Dropdown for category selection -->
+    <div class="container">
+      <div style="text-align: left;">
+        <label >Context (RAG Tools)</label>
+      </div>
+      <div class="dropdown-section">
+        <select class="dropdown">
+          <option>YAAA</option>
+          <option>Coding</option>
+          <option>Vacation</option>
+          <option>Health</option>
+          <option>Office</option> 
+        </select>
+        <button class="add-btn">&#43;</button>
+      </div>
+    
+      <!-- Dropdown for agent selection -->
+      <div style="text-align: left;">
+        <label>Agents</label>
+      </div>
+      <div class="dropdown-section">
+        <select class="dropdown">
+          <option>👤 WHO!</option>
+          <option>👤 Dumbledore</option>
+          <option>👤 Harry</option>
+          <option>👤 Dobby</option>
+        </select>
+        <button class="play-btn">▶</button>
+        <button class="add-btn">&#43;</button>
+      </div>
+
+      <!-- Reference Data Table -->
+    </div>
+    <div class="container">
+      <h3>Reference Links</h3>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+          <li><a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a</li>
+        </ul>
+      </nav>
+    </div>
+
+      <!-- Wallet Display -->
+    <div class="container" id="bottom-footer">
+      <div class="wallet">Wallet | Balance <span>200</span></div>
+      <p>Made with ❤️ by YAAA-WHO team</p>
+    </div>
+  </body>
+</html>
 
 <!-- <!DOCTYPE html>
 <html>
@@ -79,6 +106,22 @@
         />
       </button>
     </div>
+        <tr>
+          <td>1</td>
+          <td>
+            <a href="http://wikipedia.com/" target="_blank"
+              >http://wikipedia.com/</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Value 2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Value 3</td>
+        </tr>
 
     <button id="button-prompt" class="primary" disabled>Run</button>
     <div id="response" class="text" hidden></div>

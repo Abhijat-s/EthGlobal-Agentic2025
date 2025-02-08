@@ -1,9 +1,9 @@
 body {
   font-family: Source Code Pro, Arial, sans-serif;
+  font-size: 14px;
   text-align: center;
   background-color: #f9f9f9;
-  margin: 0;
-  padding: 20px;
+  padding: 10px;
 }
 
 .container {
@@ -12,11 +12,12 @@ body {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
 h2 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .scrape-btn {
@@ -25,7 +26,6 @@ h2 {
   color: white;
   border: none;
   padding: 8px;
-  font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -36,6 +36,11 @@ hr {
   border-top: 1px dashed #ccc;
 }
 
+label {
+  color: #6200ea;
+  font-weight: light;
+}
+
 .dropdown-section {
   display: flex;
   justify-content: space-between;
@@ -44,6 +49,7 @@ hr {
 
 .dropdown {
   flex: 1;
+  margin-top: 5px;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -73,21 +79,44 @@ hr {
   margin: 10px 0;
 }
 
+nav ul {
+  height: 100px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+li {
+  padding: auto;
+  text-align: left;
+  margin: 0;
+  list-style-type: circle;
+}
+
 .data-table td {
   border: 1px solid #ddd;
   padding: 5px;
-  font-size: 14px;
 }
 
 .wallet {
+  border-color: #6200ea;
+  border-width: 5px;
   background-color: #eee;
   padding: 8px;
   border-radius: 5px;
   font-weight: bold;
 }
 
-.footer {
+/* .footer {
   font-size: 12px;
   color: gray;
   margin-top: 10px;
+} */
+
+#bottom-footer {
+  font-size: 12px;
+  color: gray;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 80%;
 }
