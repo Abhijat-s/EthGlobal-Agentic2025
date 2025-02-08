@@ -24,3 +24,8 @@ The extension provides a chat interface for the Gemini API. To learn more about 
 5. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
 6. Click the extension icon.
 7. Interact with the prompt API in the sidebar.
+
+
+Installed NodeJS
+Browerify (browserify -r markdown -o bundle.js)
+Include bundle.js in the main html file
